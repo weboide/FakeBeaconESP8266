@@ -23,9 +23,33 @@ void setup() {
 
 void loop() {
   //sendBeacon("test"); //sends beacon frames with the SSID 'test'
-  //sendRandomBeacon(10); //sends beacon frames with 10 character long random SSID
+  sendBeacon("Linksys 82919Z");
+  sendBeacon("HP Printer T7131");
+  sendBeacon("Eric\'s iPhone 6S");
+  sendBeacon("Samsung Note 7");
+  sendBeacon("NoWifiHere");
+  sendBeacon("my home network");
+  sendBeacon("The Robertsons");
+  sendBeacon("Matrix");
+  sendBeacon("2WIRE391");
+  sendBeacon("2WIRE832");
+  sendBeacon("NETGEAR77");
+  sendBeacon("Marryott");
+  sendBeacon("skynet");
+  sendBeacon("home");
+  sendBeacon("Ernest's Office");
+  sendBeacon("Whats That Smell");
+  sendBeacon("Ewww Who farted");
+  sendBeacon("PartyNextFriday930PleaseCome");
+  sendBeacon("Print server");
+  sendBeacon("hp");
+  sendBeacon("wireless home");
+  sendBeacon("WLAN");
+  sendBeacon("11g AP");
+  sendBeacon("Keith's mom's wifi");
+  sendRandomBeacon(10); //sends beacon frames with 10 character long random SSID
   //sendFuzzedBeacon("test",10); //sends beacon frames with 10 different SSID all starting with 'test' and ending with whitespaces (spaces and/or tabs)
-  RickRoll();
+  //RickRoll();
 }
 
 void sendFuzzedBeacon(char* baseSsid, int nr) {
